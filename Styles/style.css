@@ -1,3 +1,21 @@
-p {
-    color: blue;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-image: url(../Assets/Images/background.png);
+    background-blend-mode: multiply;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+    background-color: #e04e4e;
+    border-radius: 5px;
+}
+
+#input-text{
+    background-color: grey;
+    color:white;
 }
