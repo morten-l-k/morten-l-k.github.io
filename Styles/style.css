@@ -1,21 +1,42 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-family: Arial, sans-serif;
     margin: 0;
-    background-color: rgba(0, 0, 0, 0.2);
-    background-image: url(../Assets/Images/background.png);
-    background-blend-mode: multiply;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
-.content {
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
     text-align: center;
+}
+
+main {
     padding: 20px;
-    background-color: #e04e4e;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #35424a;
+    color: white;
+    border: none;
     border-radius: 5px;
 }
 
-#input-text{
-    background-color: grey;
-    color:white;
+button:hover {
+    background-color: #4a5d6a;
+}
+
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }

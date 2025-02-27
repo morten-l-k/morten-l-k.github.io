@@ -1,8 +1,3 @@
-function changeColor(newColor) {
-    const elem = document.getElementById("changeName");
-    elem.style.color = newColor;
-}
-
-function changeName() {
-    document.getElementById("changeName").innerHTML = "New text";
-}
+document.getElementById('clickMe').addEventListener('click', function() {
+    document.getElementById('message').textContent = 'Button clicked! Welcome to my website!';
+});
